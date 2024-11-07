@@ -36,7 +36,7 @@ Capture the waveforms and include the results in the final report.
 
 # Verilog Code for Sequence Detector Using Moore FSM
 
-module moore_counter (
+***module moore_counter (
     input wire clk,
     input wire reset,
     output reg [1:0] state_output
@@ -84,7 +84,7 @@ module moore_counter (
             end
         endcase
     end
-endmodule
+endmodule***
  
 Output:
 
